@@ -90,7 +90,7 @@ ggseg3d <- function(.data=NULL, atlas="dk_3d",
 
     col = ifelse(is.na(col), na.colour, col)
 
-    op = ifelse(is.na(unlist(atlas3d[tt, fill])), na.alpha, 0.3)
+    op = ifelse(is.na(unlist(atlas3d[tt, fill])), na.alpha, 0.1)
 
     txt = if(is.null(text)){
       text
